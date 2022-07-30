@@ -1,0 +1,339 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+.color{
+	background-color:#5a6876 !important;
+}
+.color1{
+	color:#fff!important;
+}
+#gotop{
+		z-index:900;
+	}
+
+
+header{
+	
+	background-image: url(../images/c.jpg); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	    background-color: #120d06cf;
+    background-blend-mode: overlay;
+    padding-bottom: 90px;
+    background-attachment: fixed;
+
+}
+header .social-icon a i:hover{
+color:gray !important;
+}
+header .container{
+	position:relative;
+	
+}
+
+header .content {
+	padding:80px 0px ;
+	
+}
+header .content h1{
+	font-size: 40px;
+	padding-top: 40px;
+	
+}
+header .content p {
+	
+	margin:auto;
+	font-size:20px;
+	padding-top: 17px;
+	padding-bottom:20px;
+}
+header .content a {
+	font-size: 17px;
+	text-decoration: none;
+	color:white;
+	padding: 8px 15px ;
+	background-image: linear-gradient(50deg, #120d06cf,blue);
+	border:1px solid white;
+}
+header .content a:hover {
+	background-image: linear-gradient(50deg, transparent,transparent); 
+}
+header nav{
+	padding: 20px 0px ;
+}
+
+.navbar-light .navbar-brand {
+    color:#e70d0d!important;
+}
+header nav ul{}
+header nav ul li{}
+header nav ul li a{
+	color:#fff !important;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 5px 20px !important;
+	margin:0px 3px;
+	transition: all 0.2s linear !important;
+	position:relative;
+}
+header nav ul li a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:white;
+  transform-origin: bottom right;
+  transition: transform 0.9s ease-out;
+
+}
+header nav ul li a.active:after,
+header nav ul li a:hover:after{
+	transform: scaleX(1);
+  transform-origin: bottom left;
+
+}
+
+
+.about-section{
+	padding: 60px 0px;
+}
+.about-section img{
+	border-radius: 20px;
+	box-shadow:3px 3px 11px #a55b87;
+	border:5px solid white;
+}
+.about-section .about{
+	padding-top: 0px;
+}
+.about-section .about h2{
+	font-size: 70px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 20px;
+	color: #40AFCC;
+	font-weight: 500;
+}
+.about-section .about p{
+	font-size: 18px;
+	color:#242424;
+	line-height: 24px;
+	margin-bottom: 32px;
+	transition-duration: .3s;
+}
+.about-section .about p:hover{
+	color: #40AFCC;
+}
+
+.social-icon a .fa-facebook{
+	position:absolute;
+	top:200px;
+	right:40px;
+	color:#f4fdf4;
+	background-color: #625f5f7a;
+	height: 35px;
+	width:35px;
+	line-height:35px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 17px;
+}
+.social-icon a .fa-twitter{
+	position:absolute;
+	top:244px;
+	right:40px;
+	color:#f4fdf4;
+	background-color: #625f5f7a;
+	height: 35px;
+	width:35px;
+	line-height:35px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 17px;
+}
+
+
+.social-icon a .fa-linkedin-in{
+	position:absolute;
+	top:288px;
+	right:40px;
+	color:#f4fdf4;
+	background-color: #625f5f7a;
+	height: 35px;
+	width:35px;
+	line-height:35px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 17px;
+}
+.social-icon p {
+	position:absolute;
+	top:369px;
+	right:4px;
+	color:green;
+	
+	
+	
+	font-size: 20px;
+	transform: rotate(-90deg);
+}
+.skills-section{
+	background-color: #eee;
+	padding:0px 0px  50px 0px;
+}
+.skills-section .w-100{
+	width:270px !important;
+	height:195px;
+	object-fit: cover;
+	
+}
+/*.skills-section .org{
+  background-color: orange !important;
+  width:270px ;
+
+}*/
+.skills-section .on{
+ width:270px;
+ height:195px;
+ object-fit: cover;
+
+}
+.skills-section .row{
+	margin-bottom: 20px;
+}
+.skills-section .row .inner img{
+	transition-duration: 1s;
+}
+.skills-section .row .inner img:hover{
+	transform: scale(1.1);
+}
+.skills-section h3{
+	padding: 80px 0px;
+	color:#40AFCC;
+	font-size:70px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.resume-section{
+	padding: 70px 0px;
+}
+.resume-section h1{
+	font-family: 'Montserrat', sans-serif;
+	padding: 50px 0px 50px 0px;
+    color: #40AFCC;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.resume-section .resume h4{
+	padding-bottom: 40px;
+	font-size: 30px;
+	font-weight: 600;
+}
+.resume-section .resume .dev,.resume-section .resume .engi,.resume-section .resume .hsc,.resume-section .resume .ssc,.resume-section .resume .exp1,.resume-section .resume .exp2,.resume-section .resume .exp3,.resume-section .resume .exp4{
+	padding: 10px;
+}
+.resume-section .dev,.resume-section .engi,.resume-section .hsc,.resume-section .ssc{
+	box-shadow: 3px 3px 5px #7c7cdd;
+
+}
+.resume-section .exp1,.resume-section .exp2,.resume-section .exp3,.resume-section .exp4{
+	box-shadow: 3px 3px 5px #7c7cdd;
+
+}
+/*works-section start***************************************************************/
+.works-section{
+	padding: 50px 0px;
+	background:#eee;
+}
+.works-section h1{
+	font-family: 'Montserrat', sans-serif;
+	padding: 80px 0px 0px 0px;
+    color: #40AFCC;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.works-section h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	padding-bottom: 50px;
+}
+.works-section .works{
+	margin-bottom: 20px;
+}
+.works-section .works img{
+	height:200px;
+	object-fit: cover;
+	border-radius: 10px;
+	cursor: pointer;
+	transition-duration: 0.9s;
+
+}
+.works-section .works img:hover{
+	transform: scale(1.1);
+}
+
+/*works-section end***************************************************************/
+
+.footer{
+	padding: 80px 0px ;
+	 background-image: linear-gradient(-90deg,#5a6876, black);
+	
+	color:white;
+}
+
+.footer .foot{}
+.footer .foot h2:hover {
+	color:;
+}
+.footer .foot p{}
+.footer span {
+	display:block;
+	width:100%;
+	height:2px;
+	background-color: white;
+	margin: 20px 0px;
+}
+.footer h4{
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 4px;
+}
+.footer .foot .nav {}
+.footer .foot .nav li:hover{
+	color:orange;
+}
+.footer .foot .nav li i {
+	font-size: 30px;
+	padding-right: 20px;
+	
+}
+.footer .foot .nav li a {
+color: white !important;
+}
+.footer .foot .nav li a:hover {
+color: orange !important;
+}
+.footer .foot .list-unstyled li{
+	transition-duration: 0.1s;
+}
+.footer .foot .list-unstyled li:hover {
+	color:gray;
+}
+.footer .foot .list-unstyled li i{}
